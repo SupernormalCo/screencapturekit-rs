@@ -27,9 +27,9 @@ ci = []
 cargo-clippy = []
 
 [dependencies]
-core-media-rs = { version = "0.3" }
-core-video-rs = { version = "0.3" }
-core-utils-rs = { version = "0.3" }
+core-media-rs = { git = "https://github.com/doom-fish/core-frameworks", rev = "876d2d7" }
+core-video-rs = { git = "https://github.com/doom-fish/core-frameworks", rev = "876d2d7" }
+core-utils-rs = { git = "https://github.com/doom-fish/core-frameworks", rev = "876d2d7" }
 objc = { version = "0.2", features = ["exception"] }
 block2 = "0.6"
 dispatch = "0.2"
